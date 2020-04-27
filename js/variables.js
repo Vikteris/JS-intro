@@ -33,3 +33,4 @@ console.log ( 'Mesgtamas skaicius', megstamasSkaicius);
 
 megstamasSkaicius= 3;
 console.log ( 'Mesgtamas skaicius', megstamasSkaicius);
+
