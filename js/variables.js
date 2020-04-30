@@ -1,36 +1,36 @@
 "use strict";
 
-/* 
-kintmųjų tipai:
-
-- const (konstanta)
-- let (kintamusju tipas keičiama n kartu)
-- var (galim buti keičiamos kintamuju reiksmes)
+/*
+kintamuju tipai:
+- const
+- let
+- var
 */
 
-const vardas = 'Viktoras';  // tekstas
-const akiuSkaicius = 2;     // skaicius
-const turiGalva = true;     // logine reiksme true/false
-const mokaSkraidyti =false;  //logine reiksme true/false
-const zigmoPazymiai = [];         // tuscias sarasas
-const marytesPazymiai = [10, 8 ,2];    //sarasas su skaiciais
-const abc = ['a', 'b', 'd', 'e', 'f']   //sarašas su tekstai
+const manoVardas = 'Rimantas';          // tekstas
+const akiuSkaicius = 2;                 // skaicius
+const turiGalva = true;                 // logine reiksme: true / false
+const mokaSkraidyti = false;            // logine reiksme: true / false
+const petriukoPazymiai = [];            // tuscias sarasas
+const marytesPazymiai = [10, 8, 2];     // sarasas su skaiciais
+const abc = ['a', 'b', 'd', 'e', 'f'];  // sarasas su tekstais
 
-
-
-console.log( vardas );
+console.log( manoVardas );
 console.log( akiuSkaicius );
 console.log( turiGalva );
 console.log( mokaSkraidyti );
-console.log( zigmoPazymiai );
+console.log( petriukoPazymiai );
 console.log( marytesPazymiai );
 console.log( abc );
 
-
-
 let megstamasSkaicius = 5;
-console.log ( 'Mesgtamas skaicius', megstamasSkaicius);
+console.log( 'Megstamas skaicius:', megstamasSkaicius );
 
-megstamasSkaicius= 3;
-console.log ( 'Mesgtamas skaicius', megstamasSkaicius);
+megstamasSkaicius = 3;
+console.log( 'Megstamas skaicius:', megstamasSkaicius );
 
+megstamasSkaicius = 7;
+console.log( 'Megstamas skaicius:', megstamasSkaicius );
+
+const belekoksSarasas = [5, 'asd', true, false, [18, '-asfdg', []]];
+console.log(belekoksSarasas);
